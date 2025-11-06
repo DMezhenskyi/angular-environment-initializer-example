@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { MatButton } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterLink, RouterOutlet, RouterLinkActive } from '@angular/router';
+import { TabVisibilityMonitor } from './core/tab-visibility-monitor';
 
 @Component({
   selector: 'app-root',
